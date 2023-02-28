@@ -1,17 +1,14 @@
 import React from "react";
 import styles from "./hero.module.css";
 
-const { heroStyled, heroTitle, spamBlue, heroDescription } =
-  styles;
+const { heroStyled, heroTitle, spamBlue, heroDescription } = styles;
 
 export default function Hero() {
   return (
     <div className={heroStyled}>
       <h2 className={heroTitle}>
-        
-          ¡Soy <span className={spamBlue}>Ezequiel Sanchez</span>, Full Stack
-          Developer!
-        
+        ¡Soy <span className={spamBlue}>Ezequiel Sanchez</span>, Full Stack
+        Developer!
       </h2>
 
       <div className={heroDescription}>
