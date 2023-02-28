@@ -2,29 +2,39 @@
     width: 90%;
     margin: 2% 5% 2% 5%;
     display: flex;
-    
+    align-items: flex-start;
+    justify-content: space-around;
 }
+
+
 
 .styledIcon{
     width: 68px;
     height: 68px;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .iconsContainer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
     margin: 1%;
+    padding: 2%;
 }
 
 .skillsContainer{
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 25%;
+}
+
+
+.skillsContainer:hover{
+    box-shadow: 5px 5px 10px #9DF53D, -5px -5px 10px #9FF073;
 }
 
 .skillsTitle{

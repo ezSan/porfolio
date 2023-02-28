@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "title": "Gifos Web App",
+      "desc": "Búsqueda, trendings, favoritos, descarga y creación de Gif utilizando la cámara web.",
+      "technologies":"Javascript, Css, Html",
+      "image":"../"
+
+    },
+    {
+      "title": "Pale Blue Dot - Landing Page",
+      "desc": "Landing page, canal dedicado a podcast de programación y tecnología",
+      "technologies":"HTML5, CSS",
+      "image":"https://www.ibb.co/n1Q5LnL"
+    }   
+  ]
+}

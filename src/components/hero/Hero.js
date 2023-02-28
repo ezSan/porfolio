@@ -1,16 +1,19 @@
 import React from "react";
 import styles from "./hero.module.css";
 
-const { welcomeTitle, heroStyled, heroTitle, spamBlue, heroDescription } = styles;
+const { welcomeTitle, heroStyled, heroTitle, spamBlue, heroDescription } =
+  styles;
 
 export default function Hero() {
   return (
     <div className={heroStyled}>
-      <h4 className={welcomeTitle}>BIENVENIDOS</h4>
       <h2 className={heroTitle}>
-        ¡Soy <span className={spamBlue}>Ezequiel Sanchez</span>, Full Stack
-        Developer!
+        <marquee behavior='alternate' scrollamount='10'>
+          ¡Soy <span className={spamBlue}>Ezequiel Sanchez</span>, Full Stack
+          Developer!
+        </marquee>
       </h2>
+
       <div className={heroDescription}>
         <p>
           Desde muy chico dedicaba horas a recorrer la web, sorprendido del
@@ -21,9 +24,7 @@ export default function Hero() {
           Apasionado por la tecnología, música, deporte y disfrutar de la
           naturaleza.
         </p>
-        <p>
-          Ofrezco mis servicios de desarrollo a particulares y empresas.
-        </p>
+        <p>Ofrezco mis servicios de desarrollo a particulares y empresas.</p>
       </div>
     </div>
   );

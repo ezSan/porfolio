@@ -6,10 +6,10 @@ const { styledNavBar } = styles;
 export default function NavBar() {
   return (
     <div className={styledNavBar}>
-      <a>Sobre mi</a>
-      <a>Habilidades</a>
-      <a>Proyectos</a>
-      <a>Contacto</a>
+      <a id="#" href="/">Sobre mi</a>
+      <a id="#" href="/">Habilidades</a>
+      <a id="#" href="/">Proyectos</a>
+      <a id="#" href="/">Contacto</a>
     </div>
   );
 }

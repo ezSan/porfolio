@@ -14,11 +14,12 @@
     width: 80%;
     margin:2% 10% 2% 10%;
     font-size: xx-large;
+    text-align: center;
     
 }
 
 .spamBlue{
-    color: blue;
+    color: #D63AEF;
 }
 
 .heroDescription{
